@@ -3,8 +3,8 @@
         <h1>Cartes Des Machine Du monde du Café</h1>
         <div>
             <p class="red" v-if="error != null">Pas de machines === pas de travail</p>
-            <p v-if="loading">Raquête en cours</p>
-            <p v-else-if="error === null">Au boulot les faignants</p>
+            <p class="orange" v-if="loading">Raquête en cours</p>
+            <p class="green" v-else-if="error === null">Au boulot les faignants</p>
         </div>
 
         <gmap-map
@@ -70,6 +70,12 @@
 <style scoped>
     .red{
         color: red;
+    }
+    .green{
+        color:green;
+    }
+    .orange{
+        color:orange;
     }
 
 </style>
