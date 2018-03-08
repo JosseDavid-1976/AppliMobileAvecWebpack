@@ -1,5 +1,5 @@
 import Vue from 'vue'
-
+// import axios from 'axios'
 import App from './App.vue'
 import VueRouter from 'vue-router'
 import MachinesList from './MachinesList.vue'
@@ -15,7 +15,7 @@ Vue.use(VueGoogleMaps, {
 });
 
 Vue.use(VueRouter);
-
+// vue.use(axios);
 Vue.component("listemachine",MachineMachine);
 Vue.component("listesmachines",MachinesList);
 // Vue.component("gmap-map",MachinesMap);
