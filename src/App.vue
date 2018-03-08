@@ -13,7 +13,6 @@
             <router-link to="/map" class="button">Voir la carte</router-link>
             <!--<router-link to="/machine">Machine</router-link>-->
 
-
             <router-view></router-view>
         </div>
     </div>
